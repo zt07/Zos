@@ -1,4 +1,4 @@
-#Installation and use
+# Installation and use
 
 * Clone the repo
      `git clone https://github.com/zt07/OsDev `
