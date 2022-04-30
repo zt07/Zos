@@ -5,5 +5,5 @@
 
 * Install NASM and QEMU
 
-* Run the following command    
+* Run the following command (Assembles file to a binary and starts QEMU)   
      `nasm -f bin boot.asm -o boot.bin && qemu-system-x86_64 boot.bin`
