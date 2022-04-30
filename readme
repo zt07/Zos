@@ -1,7 +1,7 @@
 ====Installation and use ====
 
 * Clone the repo
-    * `https://github.com/zt07/OsDev`
+    * `git clone https://github.com/zt07/OsDev `
 
 * Install NASM and QEMU
 
