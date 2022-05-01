@@ -8,5 +8,6 @@ Heavy inspiration <small>(copied)</small> from https://github.com/mell-o-tron/OS
 
 * Install NASM and QEMU
 
-* Run the following command    
-    * `nasm -f bin boot.asm -o boot.bin && qemu-system-x86_64 boot.bin`
+* Run the following shell script to start the progrma in QEMU
+
+    * `./start.sh`
