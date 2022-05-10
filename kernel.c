@@ -100,6 +100,6 @@ void kernel_main(void)
 	terminal_initialize();
  
 	/* Newline support is left as an exercise. */
-	terminal_writestring("Farhan looks like a darkskin shaggy\n");
+	terminal_writestring("EPic TIme!!\n");
 	
 }
