@@ -78,12 +78,16 @@ void terminal_putchar(char c) {
  
 void terminal_write(const char* data, size_t size) {
 	for (size_t i = 0; i < size; i++)
+		//if a newline is found, move to the next line
 		if (data[i] == '\n') {
+			terminal_row++;
 			terminal_column = 0;
-			if (++terminal_row == VGA_HEIGHT)
-				terminal_row = 0;
-		} else
+		}
+		
+
+		else{
 			terminal_putchar(data[i]);
+		}
 }
  
 void terminal_writestring(const char* data) {
@@ -94,9 +98,9 @@ void kernel_main(void) {
 	/* Initialize terminal interface */
 	terminal_initialize();
  
-	/* Newline support is left as an exercise. */
-	terminal_writestring("EPic TIme!!\n");
+ 	terminal_writestring("EPic TIme!!\n");
 	terminal_writestring("Hello, kernel World!\n");
+	terminal_writestring("I'm tABBED!\n");
 	
 }
 
