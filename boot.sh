@@ -7,4 +7,4 @@ if grub-file --is-x86-multiboot myos.bin; then
 else
   echo the file is not multiboot
 fi
-qemu-system-i386 -cdrom myos.iso
+qemu-system-i386 -cdrom Zos.iso
