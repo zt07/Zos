@@ -1,5 +1,5 @@
 # Zos (Z Operating System)
-# A hobby Operating System I am wokrin gon for fun
+A hobby Operating System I am wokring on for fun
 
 # Installation and use:
 * Open a terminal where you want to store the operating system.
